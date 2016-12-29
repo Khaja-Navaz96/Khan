@@ -5,7 +5,7 @@ int main()
     printf("Enter an integer:\n");
     scanf("%d", &n);
     originalInteger = n;
-    while( n!=0 )
+    while( n>0 )
     {
         remainder = n%10;
         reversedInteger = reversedInteger*10 + remainder;
