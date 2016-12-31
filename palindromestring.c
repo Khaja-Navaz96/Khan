@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	char string[50],revstring[50];
+	char s1[50],s2[50];
 	int flag;
 	printf("Enter the string\n");
-	scanf("%s",string);
-	strrev(string);
-	strcpy(revstring,string);
-	flag=strcmp(string,revstring);
+	scanf("%s",s1);
+	s2=strrev(s1);
+	flag=strcmp(s1,s2);
 	if(flag==0)
 	   {
 	       printf("The string is a palindrome.");
