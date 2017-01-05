@@ -9,21 +9,21 @@ int main()
    for(i=2;i<=n*n;i++)
    {
 	    r = (r+n-1)%n; 
-		  c = (c+1)%n;    
+	    c = (c+1)%n;    
 		if(a[r][c] != 0)
 		{
 		    r = (n+r+2)%n;
 			c = (n+c-1)%n;
 	    }
-			a[r][c]=i; 
+		a[r][c]=i; 
    }
-	for (i=0;i<n;i++) 
-	{                                                    
+   for (i=0;i<n;i++) 
+   {                                                    
           for (j=0;j<n;j++) 
           {                                                 
             printf("%d\t",a[i][j]);                                           
           }                                                                         
-		  printf("\n");                                                             
-    }                                                                             
+	printf("\n");                                                             
+   }                                                                             
 	return 0;                                                                     
 }  
