@@ -10,12 +10,12 @@ int main()
    {
 	    r = (r+n-1)%n; 
 	    c = (c+1)%n;    
-		if(a[r][c] != 0)
+	    if(a[r][c] != 0)
 		{
 		    r = (n+r+2)%n;
-			c = (n+c-1)%n;
+		    c = (n+c-1)%n;
 	    }
-		a[r][c]=i; 
+ 	    a[r][c]=i; 
    }
    for (i=0;i<n;i++) 
    {                                                    
