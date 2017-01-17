@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-    int a[5][5],i,j,space;
+    int i,j,space;
     char ch={'*'};
     for(i=0;i<5;i++)
     {
