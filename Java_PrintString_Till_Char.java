@@ -19,7 +19,7 @@ public class Hello {
                 break;
             }
             else 
-            System.out.printl(c[i]);
+            System.out.print(c[i]);
         }
 	}
 }
